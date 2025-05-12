@@ -1,6 +1,6 @@
 const isValidIPv4 = (input) => {
   // Split the input string into an array of octets.
-  const octets = input.split('.');
+  const octets = input.split(".");
   // If the input string does not contain exactly 4 octets, return false.
   if (octets.length !== 4) {
     return false;
